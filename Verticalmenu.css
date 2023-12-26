@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    width: 20%;
+    height: 100vh;
+
+}
+#container{
+    list-style-type: none;
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+
+}
+a:hover{
+    background-color: chartreuse;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+/* ---Below li drop down----
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    position: relative;
+    display: none;
+}
+#drop-m:hover #menu
+{
+    display: block;
+
+} */
+
+/* ----Right Side Drop Down----- */
+
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop-m:hover #menu{
+    position: relative;
+    display: block;
+}
+#drop-i{
+    display: block;
+    
+}
+#i-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
